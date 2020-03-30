@@ -1,17 +1,17 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
+  ["Jordan", "Bryant", "James", "Chamberlain"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  add_element_to_end_of_array(create_an_array, "Iverson")
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  add_element_to_start_of_array.upshift
 end
 
 def remove_element_from_end_of_array(array)
